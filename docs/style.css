@@ -6,9 +6,16 @@
   flex: 50%;
 }
 
+img {
+     margin: 0 auto;
+}
 
 a {
   color: red;
+}
+
+.navbar {
+  background-color: white;
 }
 
  /* Container holding the image and the text */

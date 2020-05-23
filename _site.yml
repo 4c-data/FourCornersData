@@ -1,5 +1,7 @@
 name: "Four Corners DATA Collective"
 title: "Four Corners DATA Collective"
+base_url: https://fourcornersdata.com
+citation_url: https://fourcornersdata.com
 date: 2020
 google_analytics: "UA-99359926-7"
 exclude: ["data", "CODE_OF_CONDUCT.*", "LICENSE.*", "R", "tests", "man"]
@@ -8,6 +10,7 @@ navbar:
   logo:
     image: logo.jpg
     href: https://www.fourcornersdata.com
+  title: Four Corners DATA Collective <br> Turning Criminal Justice Data into Usable Information
   right:
     - text: "Home"
       href: index.html
