@@ -1,10 +1,8 @@
 
-
-#col {
-          text-align: center;
-  column-count: 3;
+.col {
+  position: relative;
+  text-align: center;
 }
-
 
 
  /* Container holding the image and the text */
@@ -18,7 +16,7 @@
 .centered {
   position: absolute;
   top: 25%;
-  font-size: 40px;
+  font-size: 45px;
   left: 75%;
   transform: translate(-75%, -25%);
   text-align: right;
@@ -48,7 +46,7 @@ nav li {
     list-style-type: none;
 }
 nav li a{
-    font-size: 18px;  
+    font-size: 18px;
     color: black;
     padding: 11px;
     text-decoration: none;
