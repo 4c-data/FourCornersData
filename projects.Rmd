@@ -1,0 +1,8 @@
+---
+title: "Projects"
+---
+
+<div class="container">
+  <img src="images/philly_skyline.JPG" style="width:100%;">
+  <div class="centered">Our Work</div>
+</div>
