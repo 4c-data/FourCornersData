@@ -1,6 +1,4 @@
----
-title: "About Us"
----
+
 <div class="container">
   <img src="images/philly_skyline.JPG" style="width:100%;">
   <div class="centered">Our People</div>

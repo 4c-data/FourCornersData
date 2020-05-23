@@ -1,8 +1,6 @@
 name: "Four Corners DATA Collective"
 title: "Four Corners DATA Collective"
 date: 2020
-twitter:
-  site: "@FourCornersData"
 google_analytics: "UA-99359926-7"
 exclude: ["data", "CODE_OF_CONDUCT.*", "LICENSE.*", "R", "tests", "man"]
 output_dir: "docs"
