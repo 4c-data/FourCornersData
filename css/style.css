@@ -1,9 +1,29 @@
+* {
+  font-family: Calibri, sans-serif;
+}
+
 
 .col {
   position: relative;
   text-align: center;
 }
 
+.button {
+  background-color: #4f81bd;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+}
+
+.button:hover{
+    background-color: #4f81bd;
+    color: white;
+}
 
  /* Container holding the image and the text */
 .container {
@@ -16,7 +36,7 @@
 .centered {
   position: absolute;
   top: 25%;
-  font-size: 45px;
+  font-size: 42px;
   left: 75%;
   transform: translate(-75%, -25%);
   text-align: right;
@@ -32,8 +52,6 @@
     overflow:hidden;
 }
 
-
-
 nav{
     background-color: white;
     text-align: center;
@@ -46,11 +64,10 @@ nav li {
     list-style-type: none;
 }
 nav li a{
-    font-size: 18px;
+    font-size: 22px;
     color: black;
     padding: 11px;
     text-decoration: none;
-    font-family: arial;
 }
 nav li a:hover{
     background-color: white;
