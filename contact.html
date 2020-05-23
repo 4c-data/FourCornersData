@@ -6,6 +6,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99359926-4"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
+
     function gtag() {
       dataLayer.push(arguments);
     }
@@ -21,7 +22,6 @@
   <meta name="description" content="Explore crime, arrest, and police injury/death
       data in the United States. All of the data comes from the
       FBI's Uniform Crime Reporting (UCR) program data.">
-  <script src="js/utils.js"></script>
   <link rel="stylesheet" href="css/style.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,25 +32,21 @@
 </head>
 
 <body class="page">
+  <nav>
+    <ul>
+      <li><img src="images/logo.png" id="logo"></li>
+      <li><a href='index.html'>Home</a></li>
+      <li><a href='projects.html'>Our Work</a></li>
+      <li><a href='about.html'>Our People</a></li>
+      <li><a href='contact.html'>Contact</a></li>
+    </ul>
+  </nav>
 
-<div class="navigation-wrapper"></div>
-
-  <div id="main" role="main">
-
-    <!-- Adds in the about me stuff and links -->
-    <script>
-      $(function() {
-        ks()
-        $('#header').load("reusable_js.html .about_me_info");
-        $('.footer-wrap').load("reusable_js.html .foot");
-        $('.navigation-wrapper').load("reusable_js.html #navigation-wrapper");
-      })
-    </script>
-    <br>
-<div class="container">
-<img src="images/philly_skyline.JPG" style="width:100%;" height="300px">
-<div class="centered">Contact Us</div>
-</div>
+  <br>
+  <div class="container">
+    <img src="images/philly_skyline.JPG" style="width:100%;" height="300px">
+    <div class="centered">Contact Us</div>
+  </div>
 </body>
 
 </html>

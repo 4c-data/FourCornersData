@@ -1,0 +1,26 @@
+<br>
+<div class="container">
+  <img src="images/philly_skyline.JPG" style="width:100%;" height="300px">
+  <div class="centered">Our People</div>
+</div>
+
+<br>
+<div class="row">
+  <div class="column"><img src="images/park.JPG" style="width:200px;height:200px;"></div>
+  <div class="column"><img src="images/park.JPG" style="width:200px;height:200px;"></div>
+  <div class="column"><img src="images/park.JPG" style="width:200px;height:200px;"></div>
+<br>
+
+<div class="row">
+  <div class="column"><h3>Co-Founder, Super Duper President</h3></div>
+  <div class="column"><h3>Co-Founder, Super Duper President</h3></div>
+  <div class="column"><h3>Co-Founder, Super Duper President</h3></div>
+</div> 
+<br>
+
+<div class="row">
+  <div class="column"><p>Co-Founder, Super Duper President</p></div>
+  <div class="column"><p>Co-Founder, Super Duper President</p></div>
+  <div class="column"><p>Co-Founder, Super Duper President</p></div>
+</div> 
+<br>
