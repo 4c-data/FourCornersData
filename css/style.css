@@ -2,10 +2,17 @@
   font-family: Calibri, sans-serif;
 }
 
+body {
+  margin: 10px;
+}
 
 .col {
+  width: 100%;
   position: relative;
   text-align: center;
+  padding: 20px;
+  display: block;
+    overflow: hidden;
 }
 
 .button {
@@ -47,11 +54,27 @@
     position:relative;
     top:10px;
     left:10px;
-    width:300px;
+    width:325px;
     height:100px;
     overflow:hidden;
 }
+footer {
+        position: relative;
+        height: 300px;
+        width: 100%;
+        background-color: white;
+        color: black
+    }
 
+    p.copyright {
+        position: absolute;
+        width: 100%;
+        color: black;
+        line-height: 40px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom:0;
+    }
 nav{
     background-color: white;
     text-align: center;
